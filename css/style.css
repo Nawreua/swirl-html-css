@@ -1,0 +1,74 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Color */
+:root {
+    --header-color: #fff;
+    --background-color: lightgray;
+    --primary-color: red;
+    --secondary-color: lime;
+    --tertiary-color: lightblue;
+    --disabled-color: #484848;
+    --gray: #e9ecef;
+    --white: #fff;
+}
+
+body {
+    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: var(--background-color);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: large;
+}
+
+header {
+    padding: 1%;
+    background-color: var(--tertiary-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    border-width: thin;
+    border-style: outset;
+    border-color: black;
+    overflow: hidden;
+}
+
+.header_div {
+    float: right;
+}
+
+header div ul {
+    list-style: none;
+}
+
+:any-link {
+    text-decoration: none;
+}
+
+.profile {
+    padding: 1%;
+    overflow: hidden;
+}
+
+.profile_picture {
+    float: left;
+    border-radius: 50%;
+    margin-left: 1%;
+    margin-right: 10%;
+}
+
+footer {
+    clear: both;
+    padding: 1%;
+    background-color: var(--tertiary-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    border-width: thick;
+    border-style: outset;
+    border-color: black;
+}
+
+.text_white {
+    color: var(--white);
+}
