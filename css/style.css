@@ -9,7 +9,7 @@ html, body {
     --background-color: lightgray;
     --primary-color: red;
     --secondary-color: lime;
-    --tertiary-color: lightblue;
+    --tertiary-color: darkgray;
     --disabled-color: #484848;
     --gray: #e9ecef;
     --white: #fff;
@@ -47,6 +47,7 @@ header div ul {
 }
 
 .profile {
+    background-color: slategrey;
     padding: 1%;
     overflow: hidden;
 }
@@ -56,6 +57,34 @@ header div ul {
     border-radius: 50%;
     margin-left: 1%;
     margin-right: 10%;
+}
+
+.main {
+    padding: 2%;
+}
+
+.fixed {
+    overflow: auto;
+}
+
+.floated_content {
+  padding: 2Opx;
+  float: left;
+}
+
+.resume {
+    padding: 1%;
+    box-sizing: border-box;
+    font-size: larger;
+    width: 80%;
+    background-color: whitesmoke;
+}
+
+.sidebar {
+    padding: 1%;
+    box-sizing: border-box;
+    width: 20%;
+    float: right;
 }
 
 footer {
