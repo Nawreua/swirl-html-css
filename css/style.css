@@ -15,12 +15,22 @@ html, body {
     --white: #fff;
 }
 
+.header_text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 body {
     font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: var(--background-color);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: large;
+}
+
+.resume h2 {
+    border-bottom-color: lightgray;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
 }
 
 .header_div {
@@ -36,7 +46,7 @@ ul {
 }
 
 .profile {
-    background-color: slategrey;
+    background-color: lightslategray;
     padding: 1%;
     overflow: hidden;
 }
