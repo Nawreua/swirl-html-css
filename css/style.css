@@ -89,14 +89,12 @@ ul {
 footer {
     clear: both;
     padding: 1%;
-    background-color: var(--tertiary-color);
+    background-color: lightslategray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: small;
-    /*
-    border-width: thick;
-    border-style: outset;
-    border-color: black;
-    */
+}
+
+footer div {  
 }
 
 .text_white {
